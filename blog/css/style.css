@@ -1,0 +1,56 @@
+*{
+  font: icom;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-size: 5em;
+  font-style: oblique;
+  color: red;
+}
+
+p{
+  text-align: center;
+  width: 50%;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+nav{
+  background-color: #f442ce;
+  margin: 0;
+
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li:hover{
+  display: inline-block;
+  list-style-type: none;
+  background-color: red;
+}
+
+nav ul li a{
+  color: green;
+  font-size: 1.5em;
+  display: block;
+  line-height: 2em;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+.section{
+  background-color: rgba(72, 33, 100, 0.5);
+  margin: 6%;
+  
+}
